@@ -169,36 +169,65 @@ footer h4{
 				
 				
 				<div class="formulario">
+														
+								<!-- div -->
 								
-												<form name="contact" method="POST" data-netlify="true">
-																
-								<p>Nombre del titular:</p><input type="text" class="style" /><br/><br>
-								<p>Número Telmex:</p> <input type="text" class="style" /><br/><br>
-								<p>Mes a pagar:
-												<select class="mes">      
-												    <option>Enero</option>
-												    <option>Febrero</option>
-												    <option>Marzo</option>
-												    <option>Abril</option>
-												    <option>Mayo</option>
-												    <option>Junio</option>
-												    <option>Julio</option>
-												    <option>Agosto</option>
-												    <option>Septiembre</option>
-												    <option>Octubre</option>
-												    <option>Noviembre</option>
-												    <option>Diciembre</option></p>
-												 
-												 </select><br/><br>
+								<form name="contact" method="POST" data-netlify="true"> 
+												<p> 
+																<label>Nombre del titular: 
+																<input type="text" name="name" class="style" />
+																</label> 
+											 </p> <br>
+											 <p> 
+															 <label>Numero Telmex: 
+															 <input type="txt" name="email" class="style"/></label>
+											 </p> <br>
+												<p> 
+																<label>Mes a pagar: 
+																<select name="role[]" multiple class="mes"> 
+																				<option value="leader">Enero</option></option>
+																				<option value="follower">Febrero
+																				</option>
+																				<option value="leader2">Marzo</option>
+																				<option value="follower2">Abril
+																				</option>
+																				<option value="leader3">Mayo</option>
+																				<option value="follower3">Junio
+																				</option>
+																				<option value="leader4">Julio</option>
+																				<option value="follower4">Agosto
+																				</option>
+																				<option value="leader5">Septiembre</option>
+																				<option value="follower5">Octubre
+																				</option>
+																				<option value="leader6">Noviembre</option>
+																				<option value="follower6">Diciembre
+																				</option>
+																				
+																				
+																				
+																	 </select></label> </p><br>
+													
+													<p> 
+																<label>Número de tarjeta: 
+																<input type="text" name="name2" class="style" />
+																</label> 
+											 </p> <br>
+											 <p> 
+															 <label><p>Fecha de expiración: </p>
+															 <input type="txt" name="email3" class="style2"/></label>
+											 </p><br>
+											 
+												<p> 
+															 <label><p>ccv:</p>
+															 <input type="txt" name="email4" class="style2"/></label>
+											 </p> 	<br>
+													
+																				
+																				<p> <button type="submit">Pagar</button> </p> </form>
 								
-								<p>Número de tarjeta:</p>
-								    <input type="text" class="style" /> <br/><br>
-								<p>Fecha de expiración:</p>
-								    <input type="text" class="style2" /></p><br/>
-								<p>Ccv:</p>
-								    <input type="text" class="style2" /></br><br>
-				
-								 <p> <button type="submit">Pagar</button> </p> </form>
+								
+								
 								
 								
 				</div>
